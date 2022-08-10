@@ -1,0 +1,51 @@
+#include<stdio.h>
+
+int main()
+{
+    int x;
+    printf("enter a month number:");
+    scanf("%d",&x);
+    switch(x)
+    {
+        case 1:
+        printf("Jan -31days ");
+        break;
+        case 2:
+        printf("Feb 28days ");
+        break;
+        case 3:
+        printf("Mar 31days ");
+        break;
+        case 4:
+        printf("Apr 30days");
+        break;
+        case 5:
+        printf("May -31days ");
+        break;
+        case 6:
+        printf("Jun -30days ");
+        break;
+        case 7:
+        printf("july -31days ");
+        break;
+        case 8:
+        printf("aug -31days ");
+        break;
+        case 9:
+        printf("sep -30days ");
+        break;
+        case 10:
+        printf("oct -31days ");
+        break;
+        case 11:
+        printf("nov -30days ");
+        break;
+        case 12:
+        printf("Dec -31days ");
+        break;
+        default:
+        printf("Invalid input");
+    }
+
+    return 0;
+}
