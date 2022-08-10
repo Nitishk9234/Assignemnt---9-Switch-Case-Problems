@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+int main()
+{
+    int x;
+    printf("enter a days number:");
+    scanf("%d",&x);
+    switch(x)
+    {
+        case 1:
+        printf("Mon -Starting days of work ");
+        break;
+        case 2:
+        printf("Tue - most productive days of the week  ");
+        break;
+        case 3:
+        printf("Wed -work load more ");
+        break;
+        case 4:
+        printf("Thur - Boring days");
+        break;
+        case 5:
+        printf("Fri-last of week  ");
+        break;
+        case 6:
+        printf("Sat -weekend ");
+        break;
+        case 7:
+        printf("Sun- holiday full Enjoyment ");
+        break;
+        default:
+        printf("Invalid input");
+    }
+
+    return 0;
+}
