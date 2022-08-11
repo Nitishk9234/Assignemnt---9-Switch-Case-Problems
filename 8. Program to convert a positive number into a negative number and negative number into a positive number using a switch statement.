@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("Enter a number:");
+    scanf("%d",&x);
+    switch(x>0)
+    {
+    case 1:
+        printf("convert positive to negative %d",-x);
+        break;
+    case 0:
+        printf("convert negative to positive %d",-x);
+        break;
+    default:
+        printf("invalid value");
+    }
+
+
+    return 0;
+}
